@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+body{
+  
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+#root, .game{
+  height: 100vh;
+}
+.game{
+  display:flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+.game-board{
+  background: #95a5a6;
+  height: 319px;
+  width: 300px;
+  border: 10px solid #f39c12;
+}
+.border-row{
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  
+}
+button{
+  height:auto;
+  width:100%;
+  
+}
+
